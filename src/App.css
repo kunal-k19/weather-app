@@ -1,0 +1,50 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container{
+  
+  
+  padding: 25px;
+  height: 600px;
+  width: 500px;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.input{
+  padding: 15px;
+  width: 60%;
+  border-radius: 6px;
+  margin: auto;
+  border: 1px solid lightgrey;
+  
+}
+.input:focus{
+  outline: none;
+}
+.weather-data{
+  
+  height: 300px;
+  width: 300px;
+  margin-top: -600px;
+}
+.city{
+  font-size: 30px;
+  font-weight: 200;
+}
+.temp{
+  border: 1px solid lightgrey;
+  padding: 10px;
+  font-size: 90px;
+  border-radius: 6px;
+}
+.image{
+  
+  height: 600px;
+  width: 500px;
+}
